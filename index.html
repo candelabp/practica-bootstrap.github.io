@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!--Metadatos-->
+        <meta charset="utf-8">
+        <meta name="author" content="Candela Puerta">
+        <meta name="description" content="portfolio de Candela">
+        <meta name="keywords" content="HTML, CSS, Javascript, React">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Titulo-->
+        <title>Candela Puerta - Desarrollo Web Front-End </title>
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+       <!--CSS-->
+        <link href="style.css" rel="stylesheet">
+        <!--Favicon-->
+        <link rel="icon" type="image/x-icon" href="imagenes/9270879.svg">
+        <!--Google fonta-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Sono:wght@200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Barra de navegacion-->
+        <nav class="navbar navbar-expand-md" style="background-color: #fffaff;">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                  <img src="imagenes/9270879.svg" width="50" alt="logo de la pagina">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonios">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                  
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+          <!--seccion hero-->
+          <section class="hero align-items-stretch">
+            <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+              <img class="hero-imagen-desarrollador"src="imagenes/3969799.png" alt="mi foto">
+              <h1>Hola, Soy Candela Puerta</h1>
+              <h2>Desarrollo sitios web</h2>
+            </div>
+            <div class="hero inferior">
+              <img class="hero-inferior-imagen img-fluid" src="imagenes/2881142.png" alt="imagen de computadora">
+            </div>
+          </section>
+          <!--Sobre mi-->
+          <section id="sobre-mi" class="sobre-mi seccion-oscura">
+            <div class="contenedor">
+              <h2 class="seccion-titulo">Conoce a Candela Puerta</h2>
+              <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tellus sit amet sem fringilla vehicula. Aenean vitae lectus orci. Donec vel augue commodo, dapibus diam in, interdum ante. Nunc mauris justo, tempor et sodales sed, tincidunt at nisl. Mauris eu orci eu ligula luctus hendrerit. Suspendisse vulputate felis at porttitor molestie. Sed cursus nunc arcu, a fermentum metus suscipit id. Cras risus sapien, porttitor et varius ut, aliquam et leo.
+
+              </p>
+            </div>
+
+          </section>
+          <!--experiencia-->
+          <section class="experiencia seccion-clara">
+            <div class="container text-center">
+              <div class="row">
+                <!--desarrollo web-->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-laptop"></i>
+
+                 <p class="experiencia-titulo">Desarrollo web</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tellus sit amet sem fringilla vehicula.</p>
+                 <div class="badges-contenedor">
+                  <span class="badge text-bg-primary">HTML</span>
+                  <span class="badge text-bg-primary">CSS</span>
+                  <span class="badge text-bg-primary">Javascript</span>
+                  <span class="badge text-bg-primary">React</span>
+
+                 </div>
+                </div>
+                <!--articulos-->
+                <div class="columna col-12 col-md-4">
+                <i class="bi bi-card-checklist"></i>
+                <p class="experiencia-titulo">Articulos</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tellus sit amet sem fringilla vehicula.
+                </p>
+                <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Escribir</span>
+                <span class="badge text-bg-primary">Editar</span>
+                <span class="badge text-bg-primary">Blogs</span>
+                </div>
+                </div>
+                <!--estudiante-->
+                <div class="columna col-12 col-md-4">
+                  <i class="bi bi-journal-bookmark"></i>
+                <p class="experiencia-titulo">Estudios</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non tellus sit amet sem fringilla vehicula.
+                </p>
+                <div class="badges-contenedor">
+                <span class="badge text-bg-primary">Universidad</span>
+                <span class="badge text-bg-primary">Cursos</span>
+                <span class="badge text-bg-primary">Capacitaciones</span>
+                </div>
+                </div>
+                </div>
+
+              </div>
+            </div>
+            
+
+          </section>
+          <!--Proyectos-->
+          <section id="proyectos"class="proyectos-recientes seccion-clara d-flex flex-column">
+            <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+            <h3 class="seccion-descripcion">Estos son algunos de mis proyectos recientes</h3>
+            <!--Galeria de proyectos-->
+            <div class="container text-center proyecto-contenedor">
+              <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagenes/proyecto1.png" alt="proyecto 1">
+                    <div class="overlay">
+                      <p>Proyecto 1</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/candelabp" target="_blank"rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/"target="_blank"rel="noopener noreferrer">
+                          <i class="bi bi-globe"></i>
+
+                        </a>
+                      </div>
+                      
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagenes/proyecto2.jpg" alt="proyecto 2">
+                    <div class="overlay">
+                      <p>Proyecto 2</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/candelabp" target="_blank"rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/"target="_blank"rel="noopener noreferrer">
+                          <i class="bi bi-globe"></i>
+
+                        </a>
+                      </div>
+                      
+
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                  <div class="proyecto">
+                    <img src="imagenes/proyecto1.png" alt="proyecto 3">
+                    <div class="overlay">
+                      <p>Proyecto 3</p>
+                      <div class="iconos-contenedor">
+                        <a href="https://github.com/candelabp" target="_blank"rel="noopener noreferrer">
+                          <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.freecodecamp.org/"target="_blank"rel="noopener noreferrer">
+                          <i class="bi bi-globe"></i>
+
+                        </a>
+                      </div>
+                      
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <a href="https://github.com/candelabp" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-secondary">Ver más proyectos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+            </a>
+
+          </section>
+          <!--articulos-->
+          <section class="articulos justify-content-start">
+            <h2 class="seccion-titulo texto-negro">Artículos</h2>
+            <div class="card" style="width: 18rem;">
+              <div class="card-header">
+                Más recientes
+              </div>
+              <ul class="list-group list-group-flush">
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">No se que poner 1</li>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">No se que poner 2</li>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">No se que poner 3</li>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">No se que poner 4</li>
+                </a>
+                <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+                  <li class="list-group-item">No se que poner 5</li>
+                </a>
+              </ul>
+            </div>
+            <a href="https://www.freecodecamp.org/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-secondary">Ver más artículos
+              <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+            </a>
+          </section>
+          <!--Testimonios-->
+          <section id="testimonios" class="testimonios seccion-clara">
+            <h2 class="seccion-titulo">Testimonios</h2>
+            <h3 class="seccion-descripcion">Estos son algunos testimonios de mis clientes...</h3>
+            <!--Carrusel-->
+            <div id="testimonios-carrusel" class="carousel carrusel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="imagenes/persona1.jpg"alt="cliente 1">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac leo ac nisl suscipit sollicitudin. Duis ornare ipsum neque, sit amet mollis lectus facilisis aliquet. Nam eleifend,</p>
+                    <div class="testimonio-info">
+                      <p class="cliente">Karen</p>
+                      <p class="cargo">Gerente de proyectos en desarrollo web</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="imagenes/persona2.jpg"alt="cliente 2">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac leo ac nisl suscipit sollicitudin. Duis ornare ipsum neque, sit amet mollis lectus facilisis aliquet. Nam eleifend,</p>
+                    <div class="testimonio-info">
+                      <p class="cliente">Fernando</p>
+                      <p class="cargo">Gerente de proyectos en desarrollo web</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="imagenes/persona3.jpg"alt="cliente 3">
+                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac leo ac nisl suscipit sollicitudin. Duis ornare ipsum neque, sit amet mollis lectus facilisis aliquet. Nam eleifend,</p>
+                    <div class="testimonio-info">
+                      <p class="cliente">Enzo</p>
+                      <p class="cargo">Gerente de proyectos en desarrollo web</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+              </button> 
+            </div>
+
+          </section>
+          <!--Contacto-->
+          <section id="contacto" class="contacto seccion-oscura">
+            <div class="container"> 
+              <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                  <div class="col-12 col-md-4 seccion-titulo">
+                  ¡Hablemos!
+                  </div>
+                <div class="col-12 col-md-4 descripcion">
+                  Contactame para iniciar tu proyecto de desarrollo web.
+
+                </div>
+                <div class="col-12 col-md-4">
+                  <a href="mailto:candepuerta@gmail.com">
+                    <button type="button">
+                      Contacto
+                      <i class="bi bi-envelope-at"></i>
+                    </button>
+                  </a>
+
+                </div>
+                </div>
+
+              </div>
+            </div>
+
+          </section>
+          <!--footer-->
+          <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+            <img class="footer-logo" src="imagenes/9270879.svg"alt="icono">
+            <p class="footer-texto text-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://github.com/candelabp" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+
+              </a>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="mailto:candepuerta@gmail.com">
+                <i class="bi bi-envelope-heart"></i>
+
+              </a>
+            </div>
+            <div class="derechos-de-autor">Creado por Candela Puerta (2023) &#169;</div>
+          </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
+
